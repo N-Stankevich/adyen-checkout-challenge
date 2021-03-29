@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adyen Checkout Components sample code</title>
+    <link rel="stylesheet" href="https://checkoutshopper-test.adyen.com/checkoutshopper/sdk/4.1.0/adyen.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="paymentSuccess" style="display: none;">
+            <h1>Success</h1>
+            <div class="checkout-success">
+                <div>
+                    <img src="../winner.gif" alt="Did it">
+                </div>
+            </div>
+        </div>
+        <div id="paymentFailure" style="display: none;">
+            <h1>Not really success</h1>
+            <div class="checkout-failure">
+                <div>
+                    <img src="../failure.gif" alt="Ups">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://checkoutshopper-test.adyen.com/checkoutshopper/sdk/4.1.0/adyen.js"></script>
+    <script src="../utils.js"></script>
+    <script src="../checkPayment.js"></script>
+</body>
+</html>

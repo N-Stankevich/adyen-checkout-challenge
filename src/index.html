@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adyen Checkout Challenge</title>
+    <link rel="stylesheet" href="https://checkoutshopper-test.adyen.com/checkoutshopper/sdk/4.1.0/adyen.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Adyen Checkout Challenge</h1>
+        <div class="container container--full-width">
+            <div class="main">
+                <div class="checkout-container">
+                    
+                    <div class="payment-method">
+                        <div id="dropin-container">
+                            <!-- Drop-in will be rendered here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="../shopping-cart.png" alt="Shopping cart" style="position: absolute; top: 50%; transform: translate(0, -50%);">
+            </div>
+        </div>
+
+        <script src="https://checkoutshopper-test.adyen.com/checkoutshopper/sdk/4.1.0/adyen.js"></script>
+        <script src="../utils.js"></script>
+        <script src="../dropin.js"></script>
+    </div>
+</body>
+</html>
